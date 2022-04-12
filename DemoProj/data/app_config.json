@@ -1,0 +1,10 @@
+{
+	"input-source": "test_video_001.mp4",
+	"detection-conf-threshold": 0.45,
+	"restricted-area": [
+		640, 330,
+		1130, 240,
+		1270, 420,
+		910, 570
+	]
+}
