@@ -19,4 +19,8 @@ This project use the pre-trained of Intel [pedestrian-detection-adas-0002](https
 4. Open the DemoProj.sln
 ## Run the application
 1. Create the application config in json format, named is app_config.json, the config file have the same directory as the application.
-2. Start the application
+2. The confiuration parameters:
+    - ```"input-source"```: specific the input video for the application.
+    - ```"detection-conf-threshold"```: define the confidence's threshold for the detection.
+    - ```"restricted-area"```: define the convex-polygon describe the restricted-area.
+4. Start the application
